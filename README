@@ -1,0 +1,16 @@
+スライドパズル　GDD2011
+
+環境；
+node.js v0.4.11
+sugar v0.9.5
+
+使い方;
+0.準備
+mkdir problem
+ruby pre.rb
+
+1. 解く 
+node solve.js [打ち切り時間(ms)] > result.txt
+
+2. 検証
+node checkerAll.js result.txt
